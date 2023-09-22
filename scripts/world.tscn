@@ -80,4 +80,4 @@ scale = Vector2(8.34375, 7.5)
 texture = ExtResource("2_o11no")
 
 [node name="PlayeR" parent="." instance=ExtResource("3_fkemh")]
-position = Vector2(-1520, 479)
+position = Vector2(-1236, 480)
