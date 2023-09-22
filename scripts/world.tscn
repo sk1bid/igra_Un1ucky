@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://c0wjlhs6tv2b"]
+[gd_scene load_steps=5 format=3 uid="uid://c0wjlhs6tv2b"]
 
 [ext_resource type="Texture2D" uid="uid://t7dr0hbj6rjo" path="res://background/zad.png" id="1_it4mg"]
 [ext_resource type="Texture2D" uid="uid://btnntxhufs15m" path="res://grassland_tileset/PNG/terrain_top_center.png" id="2_o11no"]
+[ext_resource type="PackedScene" uid="uid://bo07d7yflo04q" path="res://scripts/character_body_2d.tscn" id="3_fkemh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6fueh"]
 size = Vector2(1278, 117)
@@ -49,8 +50,8 @@ scale = Vector2(8.28124, 7.5)
 texture = ExtResource("2_o11no")
 
 [node name="Sprite2D5" type="Sprite2D" parent="pol"]
-position = Vector2(-974, 537)
-scale = Vector2(8.1875, 7.5)
+position = Vector2(-975.25, 537)
+scale = Vector2(8.34375, 7.5)
 texture = ExtResource("2_o11no")
 
 [node name="Sprite2D6" type="Sprite2D" parent="pol"]
@@ -77,3 +78,6 @@ texture = ExtResource("2_o11no")
 position = Vector2(-317.25, 541)
 scale = Vector2(8.34375, 7.5)
 texture = ExtResource("2_o11no")
+
+[node name="PlayeR" parent="." instance=ExtResource("3_fkemh")]
+position = Vector2(-1520, 479)
